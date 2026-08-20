@@ -9322,26 +9322,6 @@
 			)
 		)
 	)
-	(gr_line
-		(start 85.56 76.53)
-		(end 85.56 91.53)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "F.Cu")
-		(uuid "b63d9bf8-c1c3-4103-921d-161acbc48316")
-	)
-	(gr_line
-		(start 85.56 109.53)
-		(end 85.56 94.53)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "F.Cu")
-		(uuid "6f604813-26b5-4ac1-838f-e51bd8f86725")
-	)
 	(gr_rect
 		(start 85.56 76.53)
 		(end 152.56 109.53)
