@@ -123,7 +123,7 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
 			(outputdirectory "")
 		)
@@ -178,11 +178,77 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRT188C8YA105KE13D/5416719?s=N4IgTCBcDaIOICUAqBGAHGgwmgmgQRQAYBWAaQFEUBmAERAF0BfIA"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "b7abfd8b-6393-42e9-8d8f-a90174913fbc")
+			(uuid "44669417-c616-4778-8c07-232dce41af5b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "$0.17"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "83a4b1a7-40d1-4df5-83ee-928e77eb273f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be8b6d01-775d-4d72-b09f-c5d7829c8858")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0dc727f-f2b5-4668-977b-49071fc5fc2d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Murata Electronics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24c664c0-a93c-4f85-9905-7d38e802d28f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "GRT188C8YA105KE13D"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "378e4711-3f8b-4094-9024-b25af79994dd")
 			(effects
 				(font
 					(size 1 1)
@@ -334,6 +400,84 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/alps-alpine/SKSGACE010/19529157?s=N4IgTCBcDaIMoGk4HECCBhAogBgIzZAF0BfIA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "670df73f-9fc7-4140-a1df-fe8f7b592e24")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "$0.45"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b174acc-9848-46b2-be7c-e95aa9e8ff10")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d4d4130a-c07b-4dd8-822a-e5f3b70ad908")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c796421-024c-4bc8-8655-452c145b37d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Alps Alpine"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8e5a708-b5c6-44f5-9e98-3ed7e5e7ff52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "SKSGACE010"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "918b1f77-a167-4580-9693-58bca8f5257a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -562,11 +706,77 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
+		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GCM188L81H104KA57D/2591908?s=N4IgTCBcDaILIFcBOBDALigBAcQMJwEYAOIgGSIIAkCAGAFgGkBBAVgHYAREAXQF8g"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "983332e4-3ba9-4fb9-bf70-a03ad13a424a")
+			(uuid "e69538aa-5940-4465-8b1b-6e4f66145afa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "$0.14"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc4a22b7-0ce5-4fc2-91d1-07f671a3bd46")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49ffdcb3-6e5e-42f2-bf0f-40b0696ad906")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7207a73-2832-4cd0-8551-2d4a0857def4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Murata Electronics"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b9eafd5-fbd9-4850-8132-ae688203acee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "GCM188L81H104KA57D"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dae42afb-17fc-4e59-9aa8-f6062aa5ab85")
 			(effects
 				(font
 					(size 1 1)
@@ -720,11 +930,51 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/pin_header_socket"
+		(property "Link" ""
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "a83bf529-379e-4b63-a4c7-3e2fc252ac7d")
+			(uuid "59d54831-8502-48c5-a002-74772271e594")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "246e8b26-ea4e-421e-a47e-36189484cc78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0715952-5c5a-423f-87e7-74ce960e9bbc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a43439d2-45b7-42bd-8130-455bb32a2d60")
 			(effects
 				(font
 					(size 1 1)
@@ -961,11 +1211,77 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
+		(property "Link" "https://www.digikey.com/en/products/detail/panasonic-industry/ERJ-PA3F1000V/5035847?s=N4IgTCBcDaIKICUBSBaACgQQMwDECMADEQGogC6AvkA"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "1d8c425e-28c4-4905-b90e-cb9dfc51cfee")
+			(uuid "7afb0f42-795c-4574-b039-209e36f06253")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "$0.15"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "34498af1-e85d-4833-b361-42aad9d1cf81")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a0fff8e-8c12-4fac-b325-ce9a92434c3d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9801e559-ea58-4bd4-b4c8-4bf9e90b8aa7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Panasonic Industry"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9cd6b87c-6d7d-40b7-9d9f-d5dbd8d1906d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "ERJ-3EKF5101V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51b9f8da-a207-4a8a-8ae0-b271365e608f")
 			(effects
 				(font
 					(size 1 1)
@@ -1121,6 +1437,84 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/gct/USB4085-GF-A/9859662?s=N4IgTCBcDaIKoGUBCAWADADgKwFoDiAYjgIIgC6AvkA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9354cb69-0eae-4c3b-bb27-24aee9c7af27")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "$0.91"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9db4439e-0b60-4789-a3e2-da8739375d01")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c62578db-42ff-46a8-a00a-63482ec9f18b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e144c9bf-f1d0-4f29-8960-3ce3195457de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "GCT"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dcc83dbd-7f1c-4178-947a-e354556ce700")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "USB4085-GF-A"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "769ee9c4-ae2f-4cf4-a0fc-476803752951")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1666,9 +2060,67 @@
 				)
 			)
 		)
+		(property "Link" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/450406020024/26249501?s=N4IgTCBcDaICwFYAMckDYliZuIC6AvkA"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "157db2b7-b2ed-4057-81b9-4e169f5de319")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "$2.51"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62755211-4641-42f2-bb3d-382e7b4c71ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "110c080a-4ba0-466e-9c2f-556dedc0c175")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bafa4553-88ed-418e-beaf-d065603ea9f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/f489673c-2a3b-4edf-b673-bb057babae9e")
 		(sheetname "/")
 		(sheetfile "steering.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1" "3")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1883,11 +2335,77 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
+		(property "Link" "https://www.digikey.ca/en/products/detail/murata-electronics/GCJ21BR71A106KE01L/4903511"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "997dfd1d-63a3-4360-bdbe-fc79d1189fa6")
+			(uuid "1e578290-9155-4d88-888d-7615d2756e88")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "$0.74"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4070ec5-5fdb-4619-9467-4b3ed7a4a1ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63c5e93b-8ce6-4606-8054-653b6fa46b9d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e1f00983-bc05-42d0-a43f-8101db800225")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Murata Electronics"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8b3b97e-ac38-41c8-ad01-7ef7785cac00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "GCJ21BR71A106KE01L"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20115aa6-b3cc-4586-9848-6449d479a7b9")
 			(effects
 				(font
 					(size 1 1)
@@ -2041,11 +2559,77 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRT188C8YA105KE13D/5416719?s=N4IgTCBcDaIOICUAqBGAHGgwmgmgQRQAYBWAaQFEUBmAERAF0BfIA"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "0499addc-c06c-42f2-bdeb-6fc1699da5a1")
+			(uuid "fb9a2a3e-208e-4831-956e-04157d0b796a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "$0.17"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b132599d-74fd-46d2-8545-1181f11b4eb1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab92ec9f-7cf9-456b-865b-f5e5e80f4930")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b13bd871-dcba-4199-af72-ebf770bea211")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Murata Electronics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a258a89-fab4-454e-8e5e-c2aedc4bede4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "GRT188C8YA105KE13D"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87730c68-c7ec-4962-89bd-9033938f914f")
 			(effects
 				(font
 					(size 1 1)
@@ -2188,11 +2772,77 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+		(property "Link" "https://www.digikey.ca/en/products/detail/kyocera-avx/GG060305100N2P/14552130?s=N4IgTCBcDaIOJwAwDZEGZEFYCMjEDkwAFEAXQF8g"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "3b5e70fb-b9bf-455a-a63c-8718dcb44ca4")
+			(uuid "355190f8-5be2-4201-bb8f-849a990c31e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "$0.45"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4844b601-6161-45e3-bb2c-7997a8441553")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb61b430-0231-4519-a7fc-3a76a1cab744")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c4cdb605-a893-41c7-a5a4-3b1cfaeb9b38")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "KYOCERA AVX"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb96b561-45a2-4338-9dd7-094025e36ccd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "GG060305100N2P"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05896457-0471-4983-a051-d7ae5ac1d332")
 			(effects
 				(font
 					(size 1 1)
@@ -2397,11 +3047,77 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+		(property "Link" "https://www.digikey.com/en/products/detail/panasonic-industry/ERJ-PA3F1000V/5035847?s=N4IgTCBcDaIKICUBSBaACgQQMwDECMADEQGogC6AvkA"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "9b291b8e-3601-4d18-8cb6-bac6dc281931")
+			(uuid "73cdeac8-59a0-47f9-b1a4-df50697ec9d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "$0.15"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e041b97-74d0-4e2f-ad36-a53c9fb47a5c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d27f9bdb-8e9e-408e-b6b5-2c023d63cac7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dbd7656c-82f2-4125-aea8-e7fe73d6f5ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Panasonic Industry"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cabd675f-a255-4824-b52a-d41d44eff334")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "ERJ-3EKF5101V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91c79038-eaac-458a-b373-c60f1259bf27")
 			(effects
 				(font
 					(size 1 1)
@@ -2555,11 +3271,51 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/pin_header_socket"
+		(property "Link" ""
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "3505a04a-5ab7-432d-8951-8085c8f0d78b")
+			(uuid "8ba309bd-e403-4779-a0b1-fddc1bc866de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e2660d1-72bf-4274-bac5-eea98356e690")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c2c0f45-a346-431b-b202-3f7fb4ba1a48")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4726a1c9-7869-4e5e-b17d-711e9caf4ef8")
 			(effects
 				(font
 					(size 1 1)
@@ -2883,7 +3639,7 @@
 				)
 			)
 		)
-		(property "Value" "12pF"
+		(property "Value" "10pF"
 			(at 52.5375 27.1 0)
 			(layer "F.Fab")
 			(uuid "7243a8ce-607c-4d82-be8c-54daca7159fc")
@@ -2916,11 +3672,77 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GCM1555C1H100JA16D/4903546"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "f1730fb4-d60f-4a7d-8536-78ccf201f5d6")
+			(uuid "aad5a05f-23d4-40c6-80f9-ff0a60f53057")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "$0.11"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12fcba3b-d27b-480e-81f1-afabd5217aea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0647507c-5dec-4c57-8e28-5fe20684db8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05e71303-0f63-4b80-ae0d-327de2cf3593")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Murata Electronics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ab7b3ec-282e-4864-aced-f6d671dc60d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "GCM1555C1H100JA16D"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cecfd344-f2ba-4294-8240-28ebb8b9d9c1")
 			(effects
 				(font
 					(size 1 1)
@@ -3074,11 +3896,77 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+		(property "Link" "https://www.digikey.ca/en/products/detail/panasonic-industry/ERJ-PA3F1000V/5035847"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "b84e31ca-8538-4863-a561-773ee8739b24")
+			(uuid "6d003262-051d-4e60-8295-c7bf252a6e76")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "$0.24"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ed7d3ad-a602-4513-ac66-2e7583eaf576")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51a01848-078e-4be2-8c2a-dddf6c9804c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb071419-fe97-45f7-8152-fca7cc3cba53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Panasonic Industry"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39abe19e-b182-4d7e-8861-e65b9dcbf7de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "ERJ-PA3F1000V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8597d545-014f-417d-bbf3-96507af59f77")
 			(effects
 				(font
 					(size 1 1)
@@ -3199,7 +4087,7 @@
 				)
 			)
 		)
-		(property "Value" "12pF"
+		(property "Value" "10pF"
 			(at 46.8625 -70.5 0)
 			(layer "F.Fab")
 			(uuid "a6c01c46-b779-4a85-986a-4c53f26f8b82")
@@ -3232,11 +4120,77 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GCM1555C1H100JA16D/4903546"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "9e9aa75e-5770-4491-961f-82861292fce0")
+			(uuid "300bc0d5-a2cc-40be-bca5-a2f70ab12f5a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "$0.11"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b4d77f2-10c8-4e87-a381-05d9ab123767")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ba2ac16-e0fc-405c-8d19-68f17f335cf0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf0eb379-99f1-4079-b33e-85e97c548aae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Murata Electronics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c1675ff2-fe1a-49e0-b3f0-b6ffb5af7040")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "GCM1555C1H100JA16D"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3fecf863-9084-46be-972d-c21ea111e0e4")
 			(effects
 				(font
 					(size 1 1)
@@ -3390,11 +4344,77 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/gullwing"
+		(property "Link" "https://www.digikey.com/en/products/detail/stmicroelectronics/USBLC6-2SC6/1040559"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "f09d827a-1749-4c18-97aa-00b7b45d5fff")
+			(uuid "2135b81f-352a-408c-b11f-f309da41d414")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "$0.54"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c695f717-3d7c-4755-95dd-a2983b61ea46")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3244adba-2e40-4762-9780-ce00d67b050e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "273235be-21b3-41d9-801a-ff88112b8be6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "STMicroelectronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f38e68e-6c1c-41fa-88e7-8e3342c32614")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "USBLC6-2SC6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d29b047-4351-4f66-9b9b-f59bdcb93859")
 			(effects
 				(font
 					(size 1 1)
@@ -3763,11 +4783,51 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/pin_header_socket"
-			(at 0 0 0)
-			(layer "F.SilkS")
+		(property "Link" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "2b1ce9fe-9376-49cc-9497-da5b07584e51")
+			(uuid "2e7cd270-9cef-4177-9482-41a6c2583915")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d637e470-59d9-4694-9009-34f30b60f958")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "862032f4-b158-4c20-8a0a-0e9b190fd831")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94800b62-78b7-4c73-857c-c4dfbab4c8bc")
 			(effects
 				(font
 					(size 1 1)
@@ -4015,11 +5075,77 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GCM188L81H104KA57D/2591908?s=N4IgTCBcDaILIFcBOBDALigBAcQMJwEYAOIgGSIIAkCAGAFgGkBBAVgHYAREAXQF8g"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "af9c86c5-a8ef-4fb2-9025-cdaecc65e153")
+			(uuid "8df9bb7f-c7f1-4587-a910-ce0f5ea4f0b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "$0.14"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1f9b916-6572-4836-b4b0-7ebcbb217266")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca6c3318-a19c-4b6e-acff-e91abdfcba55")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e126ef9-b454-4daf-b0d4-23aea2318c16")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Murata Electronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a4c1c2f-731d-41d6-9a80-66b8e12b9383")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "GCM188L81H104KA57D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4206218-3044-4065-8ebd-378ba3440dfa")
 			(effects
 				(font
 					(size 1 1)
@@ -4175,11 +5301,77 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
+		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GCM188L81H104KA57D/2591908?s=N4IgTCBcDaILIFcBOBDALigBAcQMJwEYAOIgGSIIAkCAGAFgGkBBAVgHYAREAXQF8g"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "d9066dca-d174-4a6a-972c-8f7f9fe8fdbc")
+			(uuid "eb131d11-4670-4103-8906-cd5ea11ed666")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "$0.14"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8755e0f9-1d1c-4a0b-b61b-f89c8a26b9b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54fea9c6-687d-4cb9-9c2d-fd3663da63c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "730916b0-7861-4e90-b31b-2a32cbba585f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Murata Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2126df7f-f1f7-4066-b387-4fa4bc7f89e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "GCM188L81H104KA57D"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b486b82-9a16-4f58-b84b-e2d6f140830d")
 			(effects
 				(font
 					(size 1 1)
@@ -4335,11 +5527,77 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
+		(property "Link" "https://www.digikey.ca/en/products/detail/murata-electronics/BLM18AG121SN1D/584222?s=N4IgTCBcDaIEIBkCyBGAHAQQOIrCgygHIoAiIAugL5A"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "c922ae09-b6af-4d8d-b119-f79593b50331")
+			(uuid "1d08d8f3-98d4-433b-8e9d-2fc7741298b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "$0.16"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99bc2271-22a7-4914-99c9-1ca3ae2a3a3e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c054e30-255d-4c72-a346-ddc2411bd683")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc0d75fb-2006-494d-9013-fa18e82fb18b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Murata Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "29e6a350-7996-423a-bda1-e084a8510eb0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "BLM18AG121SN1D"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5efd2628-3b8c-4c75-ae62-d68d0da44883")
 			(effects
 				(font
 					(size 1 1)
@@ -4493,11 +5751,77 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRT188C8YA105KE13D/5416719?s=N4IgTCBcDaIOICUAqBGAHGgwmgmgQRQAYBWAaQFEUBmAERAF0BfIA"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "5cd0fe0d-8b37-4ed7-a581-b9bd017c3b4a")
+			(uuid "b3a7742a-4cc8-432e-8592-84303ec74700")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "$0.17"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ffc6c9e-6d94-4d19-853d-c135f3eda5e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c24a7516-1787-46fa-9cde-65c44fe1bd20")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80de7805-8950-4629-a4fb-6bca43a13a8e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Murata Electronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed669390-4c83-4710-9319-efe2d2508f8c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "GRT188C8YA105KE13D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dfc7ce1b-7a4f-4fff-a580-f98f1645106a")
 			(effects
 				(font
 					(size 1 1)
@@ -4651,11 +5975,77 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/gullwing"
-			(at 0 0 0)
-			(layer "F.SilkS")
+		(property "Link" "https://www.digikey.com/en/products/detail/diodes-incorporated/AP2112K-3-3TRG1/4470746?s=N4IgTCBcDaIIIAcwEZlgNYFoDMA6bIAugL5A"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "70ebafc0-9cd9-41b0-9551-4b093ef76b68")
+			(uuid "0be57f8f-0117-4996-9aff-d74c32383b69")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "$0.28"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "efd8c6d2-c05d-4ad5-9fdd-e53edc1e68a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "16013baa-cee6-491f-8d48-7e160793a0d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39f85c08-e3f9-49a1-bc79-accc63c404da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Diodes Incorporated"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cff57d40-5b51-400d-adae-6a3695977c9e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "AP2112K-3.3TRG1"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "752fe1be-6e8f-4418-b802-b39d678d4e26")
 			(effects
 				(font
 					(size 1 1)
@@ -5063,11 +6453,51 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "crystal_resonator_oscillator"
-			(at 0 0 0)
-			(layer "F.SilkS")
+		(property "Link" "https://www.digikey.com/en/products/detail/jauch-quartz/Q-16-0-JXS32-8-10-10-WA-LF/8108046"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "3dc39081-1085-4320-a3a4-49dc9ab1cbcf")
+			(uuid "dc95ac8f-645f-428c-a04d-f024dc498c2d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "$0.61"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db5e57ef-f172-4172-a7f0-613d2c9cdcb1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Jauch Quartz"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20f950a9-40f0-47d9-87b3-d62fd19da268")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "Q 16,0-JXS32-8-10/10-WA-LF"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ddaba153-77ba-4098-9b64-7663db1a420f")
 			(effects
 				(font
 					(size 1 1)
@@ -5194,14 +6624,14 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "aa5157fc-7968-4eb3-a8a4-cdf97106ea17")
 		(at 124.56 84.53 90)
-		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
+		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C7"
-			(at 51.5 41 0)
+			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "52974215-4de8-4620-94eb-c13ff7e40cd8")
 			(effects
@@ -5212,7 +6642,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 55 41.5 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "1262ce40-a814-4d57-bd12-82b8a354cff3")
 			(effects
@@ -5244,11 +6674,77 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+		(property "Link" "https://www.digikey.ca/en/products/detail/murata-electronics/GCM188R72A103KA37D/1641655"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "8c59ffd2-8d34-4dbb-a40e-b9600476d93f")
+			(uuid "c99a6f5e-6598-428f-bf5e-1b3c2619578d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "$0.15"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1af09bd-8d4e-4117-bce7-a10de01281c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "773dcabb-1705-4c10-b226-7251f6afa00b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db5ac010-4bd2-4b20-bc01-fc18d8c46837")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Murata Electronics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73ba7169-dd8d-4d1b-88dc-49a7bc88ba21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "GCM188R72A103KA37D"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b22a62d-05ac-4691-aeb7-7eace226c0bf")
 			(effects
 				(font
 					(size 1 1)
@@ -5269,18 +6765,8 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.261252 -0.735)
-			(end 0.261252 -0.735)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d9d72718-6614-4b2b-9a0b-1b2ebfde2170")
-		)
-		(fp_line
-			(start -0.261252 0.735)
-			(end 0.261252 0.735)
+			(start -0.146267 -0.51)
+			(end 0.146267 -0.51)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -5288,9 +6774,19 @@
 			(layer "F.SilkS")
 			(uuid "0e2f2f1d-e07e-4ec8-8648-8944f88def9a")
 		)
+		(fp_line
+			(start -0.146267 0.51)
+			(end 0.146267 0.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d9d72718-6614-4b2b-9a0b-1b2ebfde2170")
+		)
 		(fp_rect
-			(start -1.88 -0.98)
-			(end 1.88 0.98)
+			(start -1.65 -0.73)
+			(end 1.65 0.73)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -5300,8 +6796,8 @@
 			(uuid "0d920f4e-f42a-4282-94ee-19107ad8b903")
 		)
 		(fp_rect
-			(start -1 -0.625)
-			(end 1 0.625)
+			(start -0.8 -0.4)
+			(end 0.8 0.4)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -5316,31 +6812,31 @@
 			(uuid "bf8baac8-1ce1-4841-b762-a7e74184d154")
 			(effects
 				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
+					(size 0.4 0.4)
+					(thickness 0.06)
 				)
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.0375 0 90)
-			(size 1.175 1.45)
+			(at -0.8625 0 90)
+			(size 1.075 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.212766)
+			(roundrect_rratio 0.25)
 			(net "+3.3VA")
 			(pintype "passive")
 			(uuid "c88e9837-af7a-47e1-a5ee-7ca6a7763903")
 		)
 		(pad "2" smd roundrect
-			(at 1.0375 0 90)
-			(size 1.175 1.45)
+			(at 0.8625 0 90)
+			(size 1.075 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.212766)
+			(roundrect_rratio 0.25)
 			(net "GND")
 			(pintype "passive")
 			(uuid "62a6236b-d8d4-4992-b1da-28c85857ecea")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5402,11 +6898,77 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GCM188L81H104KA57D/2591908?s=N4IgTCBcDaILIFcBOBDALigBAcQMJwEYAOIgGSIIAkCAGAFgGkBBAVgHYAREAXQF8g"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "6e1862e3-912e-479e-9409-3d3e47b9efb7")
+			(uuid "3b1dbd9f-9728-4092-bf79-a373f4860917")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "$0.14"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4769d64b-5e50-44a9-b3eb-7f4330e11d5c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "98b7453e-c67a-4061-97ac-b90163c9f331")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b409a263-6482-4b8c-bd20-0297a5251b85")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Murata Electronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "130286b8-af20-434d-a4b1-9763900e3334")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "GCM188L81H104KA57D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf577c4a-211e-4325-9393-5bcd93c06938")
 			(effects
 				(font
 					(size 1 1)
@@ -5562,11 +7124,77 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRT188C8YA105KE13D/5416719?s=N4IgTCBcDaIOICUAqBGAHGgwmgmgQRQAYBWAaQFEUBmAERAF0BfIA"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "5f6c924e-b066-47f4-96b8-36af7ed19e8a")
+			(uuid "92129eba-09e8-459a-a011-7360468f4a54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "$0.17"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c6a4f34-99c4-4222-8b49-19ef726bcb3b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ceb0a609-91ee-4ffc-9bbf-572d659ca8f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5a04dd6-ad5b-4961-96ec-c00371f25fc9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Murata Electronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe43f73b-e5be-4812-bf2f-e794a1672813")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "GRT188C8YA105KE13D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cadeb056-dd2c-4ccc-a6d1-f1f21454bc2a")
 			(effects
 				(font
 					(size 1 1)
@@ -5720,11 +7348,51 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/pin_header_socket"
+		(property "Link" ""
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "b1c7a1db-6dec-489d-8e21-bb6db1774e83")
+			(uuid "ee37019f-9f4a-47e7-9a45-6690907ef184")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "29a6bab1-2b1d-4793-9b8b-96470ef1e87a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c015a97-a776-4c6d-bd90-1f610cbe12d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d3196d71-5107-4360-be80-4f45fd38e442")
 			(effects
 				(font
 					(size 1 1)
@@ -5962,7 +7630,7 @@
 		(descr "Through hole straight socket strip, 1x21, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x21 2.54mm single row")
 		(property "Reference" "REF**"
-			(at 98.15 -12 0)
+			(at 30.13 -44.21 0)
 			(layer "F.SilkS")
 			(uuid "babeca64-1bb7-475d-ba53-29ec94d2ae2f")
 			(effects
@@ -5973,7 +7641,7 @@
 			)
 		)
 		(property "Value" "PinSocket_1x21_P2.54mm_Vertical"
-			(at 94.55 -9.3 0)
+			(at 26.53 -41.51 0)
 			(layer "F.Fab")
 			(uuid "aa643b61-9220-4117-9e68-8e83a0129f4f")
 			(effects
@@ -6432,11 +8100,77 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GCM188L81H104KA57D/2591908?s=N4IgTCBcDaILIFcBOBDALigBAcQMJwEYAOIgGSIIAkCAGAFgGkBBAVgHYAREAXQF8g"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "dffed3c2-0b98-4e75-8b2f-46be6c5c4aa8")
+			(uuid "b182894d-0bdb-4132-9e1f-9c76d8c1e9b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "$0.14"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b55c630-c541-4c48-9644-ae94230adbb9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "247463ba-c965-4bc3-9be2-d0138244e82c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51db6f57-dae3-4c0d-8d3b-61ccce4a3413")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Murata Electronics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "720f69bb-7eda-4726-8928-ea7d7f5fcf81")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "GCM188L81H104KA57D"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c15ee379-558a-4b73-8d1e-915bde3f09af")
 			(effects
 				(font
 					(size 1 1)
@@ -6590,11 +8324,51 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/pin_header_socket"
+		(property "Link" ""
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "e41c2fe7-717f-49b4-8af7-44451abbd457")
+			(uuid "d4bdf09e-e1cc-4da5-abce-64f42ef04a72")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25cfa4cd-636f-4921-ae9f-ec565de25b57")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "58e24d92-4bf1-494c-a6e5-92ba8a7e0d78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb31c70c-e622-4624-b9fb-a0cf027b77dd")
 			(effects
 				(font
 					(size 1 1)
@@ -7215,11 +8989,77 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/gullwing"
-			(at 0 0 90)
-			(layer "F.SilkS")
+		(property "Link" "https://www.digikey.com/en/products/detail/stmicroelectronics/STM32F732RET6/6621779?s=N4IgTCBcDaIMoBUCyBmMAxA7GgSgUQQDYQBdAXyA"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "6077be9f-b982-4896-b0fd-05cef699ad04")
+			(uuid "8103d4dd-11c8-4694-b3c1-09fecc09e7d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "$15.43"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79b0cafe-e345-4b15-adc5-e30d829e8e1f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e0b98e2-f3c1-423b-b81a-fbbb278d04a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "781e17fc-136e-4f2f-b9fb-6d9a32058af7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "STMicroelectronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6799ae0e-c453-4286-aaf0-0b2ccfae57fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "STM32F732RET6"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "287b5292-5d66-4ef1-8d79-aee489ba7c97")
 			(effects
 				(font
 					(size 1 1)
@@ -8262,11 +10102,77 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+		(property "Link" "https://www.digikey.com/en/products/detail/panasonic-industry/ERJ-3EKF1002V/196066?s=N4IgTCBcDaIKICUBSBaAzHA0gMQIwAZ8wA1EAXQF8g"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "2abd75df-0a2b-4bcd-9a00-11199ef05f04")
+			(uuid "73224843-e178-41f0-9045-da32be9165c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "$0.1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67f2980e-c33f-4f2c-884e-7edca8217282")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d447a83-4bb6-482f-93f7-95f5b0a23575")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50ddfb99-095a-4e43-a49a-abc5dbc4aa30")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Panasonic Industry"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "295650a2-6142-4884-a529-96ba0d7b9f7e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "ERJ-3EKF1002V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea86d63c-7b07-4a70-a035-dd1c566d81b5")
 			(effects
 				(font
 					(size 1 1)
@@ -8420,11 +10326,77 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GCM188L81H104KA57D/2591908?s=N4IgTCBcDaILIFcBOBDALigBAcQMJwEYAOIgGSIIAkCAGAFgGkBBAVgHYAREAXQF8g"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "d0c155d0-ff31-43d5-86b8-b6f446269cc9")
+			(uuid "a16ce321-70a5-4d5a-8c61-e3832d8b8f45")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "$0.14"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "814394aa-19eb-4409-9a66-92988e33cbd7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a872853-e5da-42d1-b774-3a45ae43300b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9db4b116-319e-4bee-948a-ea93b9679c16")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Murata Electronics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1482aa65-dd66-459b-bcd0-c6619f2524a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "GCM188L81H104KA57D"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "337e61f8-b5ed-4e36-b762-e9e7c2707f14")
 			(effects
 				(font
 					(size 1 1)
@@ -8578,11 +10550,77 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
+		(property "Link" "https://www.digikey.ca/en/products/detail/yageo/SMD0603B050TF/15212923"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "3927c87b-da07-4a34-a45c-d2dd34f55208")
+			(uuid "b0da1117-4f32-4237-948c-86b218d8eb7f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "$0.36"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e89302d3-6829-4dd6-82e3-ae7a96d048fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec0788ec-0ce6-4616-80b4-a92922723bda")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f99d0f1-5bf6-4f2b-b658-5ce575b5f5c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "YAGEO"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a31f6174-9b0a-4d7b-b210-b5c2f1b432ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "SMD0603B050TF"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee1b56ed-bb74-47b7-85ee-d02555a52da1")
 			(effects
 				(font
 					(size 1 1)
@@ -8736,11 +10774,12 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+		(property "Sim.Pins" "1=K 2=A"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "0c957698-66a8-43de-9503-4555e9791866")
+			(uuid "e6d2479d-036e-4398-9b5a-706a15a2604e")
 			(effects
 				(font
 					(size 1 1)
@@ -8748,12 +10787,77 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Link" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150060RS75000/4489901"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e6d2479d-036e-4398-9b5a-706a15a2604e")
+			(uuid "f39e2b92-1dac-4591-a7c1-4b59450e8dd9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "$0.15"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1da8fe34-1cab-45c4-a07e-4d9b58317bbb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b970cd12-0a5f-487a-a753-62ed0983f017")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "816ffde8-0a03-41fc-b60f-a189ca5a131f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "150060RS75000"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2efd695a-6923-4370-bf68-07b1da7825e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Wurth Elektronik"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "352fd85f-0fc1-4c41-8358-f1d9a8258b00")
 			(effects
 				(font
 					(size 1 1)
@@ -8958,11 +11062,77 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+		(property "Link" "https://www.digikey.ca/en/products/detail/murata-electronics/GCJ21BR71A106KE01L/4903511"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "60a4fea3-fc13-443c-b227-f98bebb0257a")
+			(uuid "e3222b2a-dbd5-45f6-bf97-351d38aa6161")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "$0.74"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07036b17-d5a7-4bbb-b743-1c93c40868d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "512600b8-356e-4b6b-82ef-19cfc24cf5ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ebf620d4-f2db-467c-9809-1ea8ed0e4566")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Murata Electronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49ec15c9-bfa1-4efc-aa71-f5c6d48c9c5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "GCJ21BR71A106KE01L"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "36fdafe4-452a-4594-ae58-a13dea85260c")
 			(effects
 				(font
 					(size 1 1)
@@ -9214,11 +11384,77 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
+		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRT188R61H225KE13D/5416754?s=N4IgTCBcDaIOICUAqBGAHGhA2FAJMYArANICiKAzACIgC6AvkA"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "e884d44e-82b3-4911-a212-f8fed3f0a76c")
+			(uuid "ba37bce5-a8ad-4115-8dee-0943a5857689")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "$0.2"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54d72792-1a3f-47f0-94fe-2e389465794c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e37f1827-8b3d-4daa-8935-940ba47f444c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "364b971d-629d-4e92-a36a-214a50f9d760")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Murata Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87c98101-c2a5-4a55-a86e-68413f9f2952")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "GRT188R61H225KE13D"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc6b3d77-a85c-4276-a8bd-008ebb56d5e7")
 			(effects
 				(font
 					(size 1 1)
@@ -15208,7 +17444,7 @@
 				(xy 106.745931 84.967) (xy 106.683458 84.979427) (xy 106.620254 84.991999) (xy 106.501872 85.041035)
 				(xy 106.501871 85.041035) (xy 106.395335 85.11222) (xy 106.30472 85.202835) (xy 106.233535 85.309371)
 				(xy 106.233535 85.309372) (xy 106.184499 85.427754) (xy 106.173764 85.481724) (xy 106.1595 85.553431)
-				(xy 106.1595 85.681569) (xy 106.17122 85.740489) (xy 106.184499 85.807245) (xy 106.233535 85.925627)
+				(xy 106.1595 85.681569) (xy 106.170947 85.739113) (xy 106.184499 85.807245) (xy 106.233535 85.925627)
 				(xy 106.233535 85.925628) (xy 106.30472 86.032164) (xy 106.304721 86.032165) (xy 106.304724 86.032169)
 				(xy 106.395331 86.122776) (xy 106.395334 86.122778) (xy 106.395335 86.122779) (xy 106.448237 86.158126)
 				(xy 106.501873 86.193965) (xy 106.620256 86.243001) (xy 106.745931 86.268) (xy 106.874069 86.268)
@@ -15245,6 +17481,22 @@
 				(xy 145.835741 89.013617) (xy 145.840704 89.023074) (xy 145.848699 89.030157) (xy 145.859839 89.059533)
 				(xy 145.874444 89.087359) (xy 145.876351 89.103072) (xy 145.878231 89.108027) (xy 145.8795 89.129)
 				(xy 145.8795 89.163637) (xy 145.859556 89.089204) (xy 145.82006 89.020795) (xy 145.765346 88.966081)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 125.795244 84.050475) (xy 125.845424 84.116942) (xy 125.859501 84.185503) (xy 125.859501 85.739113)
+				(xy 125.855689 85.754577) (xy 125.856651 85.770477) (xy 125.845861 85.794451) (xy 125.83957 85.819975)
+				(xy 125.829008 85.831896) (xy 125.822471 85.846422) (xy 125.801775 85.862636) (xy 125.784344 85.882312)
+				(xy 125.769453 85.887959) (xy 125.756913 85.897784) (xy 125.73105 85.902523) (xy 125.706474 85.911844)
+				(xy 125.690664 85.909924) (xy 125.674995 85.912796) (xy 125.649894 85.904974) (xy 125.6238 85.901806)
+				(xy 125.60898 85.892224) (xy 125.595484 85.888019) (xy 125.562464 85.86215) (xy 125.436463 85.736149)
+				(xy 125.393379 85.664878) (xy 125.3855 85.613112) (xy 125.3855 85.053965) (xy 125.3855 85.05396)
+				(xy 125.370365 84.939001) (xy 125.311117 84.795963) (xy 125.274147 84.747783) (xy 125.240736 84.671501)
+				(xy 125.246601 84.588426) (xy 125.289158 84.518824) (xy 125.379944 84.428039) (xy 125.379946 84.428037)
+				(xy 125.470451 84.281305) (xy 125.470453 84.2813) (xy 125.520332 84.130773) (xy 125.564686 84.060285)
+				(xy 125.636716 84.018482) (xy 125.719923 84.014942)
 			)
 		)
 		(filled_polygon
@@ -16000,7 +18252,7 @@
 				(xy 138.999636 83.276498) (xy 138.999633 83.276509) (xy 138.984501 83.391446) (xy 138.9845 83.391465)
 				(xy 138.9845 84.068534) (xy 138.984501 84.068553) (xy 138.999633 84.18349) (xy 138.999636 84.183501)
 				(xy 139.05888 84.326533) (xy 139.152304 84.448287) (xy 139.185716 84.524572) (xy 139.184916 84.588155)
-				(xy 139.176692 84.629501) (xy 139.1595 84.715931) (xy 139.1595 84.844069) (xy 139.170584 84.899788)
+				(xy 139.172011 84.653036) (xy 139.1595 84.715931) (xy 139.1595 84.844069) (xy 139.170584 84.899788)
 				(xy 139.184499 84.969745) (xy 139.233535 85.088127) (xy 139.233535 85.088128) (xy 139.30472 85.194664)
 				(xy 139.304721 85.194665) (xy 139.304724 85.194669) (xy 139.395331 85.285276) (xy 139.501873 85.356465)
 				(xy 139.620256 85.405501) (xy 139.745931 85.4305) (xy 139.745934 85.4305) (xy 139.874066 85.4305)
