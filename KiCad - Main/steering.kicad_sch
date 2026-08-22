@@ -18474,7 +18474,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x21_Socket")
-		(at 140.97 196.85 0)
+		(at 69.85 245.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18485,7 +18485,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0d93cc5-7ee6-49ab-b09e-8a60b74fc75e")
 		(property "Reference" "J7"
-			(at 142.24 195.5799 0)
+			(at 71.12 243.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18496,7 +18496,7 @@
 			)
 		)
 		(property "Value" "Conn_01x21_Socket"
-			(at 142.24 198.1199 0)
+			(at 71.12 246.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18507,7 +18507,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x21_P2.54mm_Vertical"
-			(at 140.97 196.85 0)
+			(at 69.85 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18518,7 +18518,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 196.85 0)
+			(at 69.85 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18529,7 +18529,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x21, script generated"
-			(at 140.97 196.85 0)
+			(at 69.85 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18613,7 +18613,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x15_Socket")
-		(at 105.41 196.85 0)
+		(at 34.29 245.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18624,7 +18624,7 @@
 		(fields_autoplaced yes)
 		(uuid "f225a435-43c6-4620-8fa6-c7d8cc48947f")
 		(property "Reference" "J8"
-			(at 106.68 195.5799 0)
+			(at 35.56 243.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18635,7 +18635,7 @@
 			)
 		)
 		(property "Value" "Conn_01x15_Socket"
-			(at 106.68 198.1199 0)
+			(at 35.56 246.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18646,7 +18646,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical"
-			(at 105.41 196.85 0)
+			(at 34.29 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18657,7 +18657,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 196.85 0)
+			(at 34.29 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18668,7 +18668,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x15, script generated"
-			(at 105.41 196.85 0)
+			(at 34.29 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
