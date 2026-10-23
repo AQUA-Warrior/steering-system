@@ -9,7 +9,7 @@ A custom, embedded hardware project to make my very own sim racing steering whee
 I started making this project knowing basically nothing about communication protocols or chip architectures. Instead of buying adapters that are already made for you. I wanted to make the entire system myself to learn and expand my knowledge, and create my very own sim racing setup. By designing this myself, I learned the strengths and weaknesses of communication protocols and which ones were best for which purpose. I wired up all the unused GPIO pins on the chip to connectors so that I would not just be locked down to the steering project, but instead, I can use it as a general purpose devboard for any future embedded hardware project I want to do.
 
 ### The Repository Contains:
-- KiCad schematics and PCB's for the devboard and AS5048A adapter board.
+- KiCad schematics and PCB's for the devboard and AS5047P adapter board.
 - STM32CubeMX pinouts for the devboard.
 - This repository will in the future contain the firmware/software.
 
@@ -24,7 +24,7 @@ I started making this project knowing basically nothing about communication prot
 - GND Zone on front copper
 - 3V3 Zone on back copper
 
-### AS5048A Adapter Board Design:
+### AS5047P Adapter Board Design:
 - 1 Layer PCB
 - Minimum component size of 0603 used
 - Two mounting holes (One on top right, One on bottom left)
@@ -40,14 +40,14 @@ I started making this project knowing basically nothing about communication prot
 ### Main Board 3D View:
 ![main_3D](https://cdn.hackclub.com/01a0201c-c2e5-71db-bde9-a216448ff4d2/image.png)
 
-### AS5048A Adapter Board Schematic:
-![AS5048A_schematic](https://cdn.hackclub.com/01a02019-a744-7b51-99f2-b1c21325ee12/image.png)
+### AS5047P Adapter Board Schematic:
+![AS5047P_schematic](https://cdn.hackclub.com/01a02019-a744-7b51-99f2-b1c21325ee12/image.png)
 
-### AS5048A Adapter Board PCB:
-![AS5048A_PCB](https://cdn.hackclub.com/01a0201a-e6cf-70c7-ba38-2d6a8c5d4a4e/image.png)
+### AS5047P Adapter Board PCB:
+![AS5047P_PCB](https://cdn.hackclub.com/01a0201a-e6cf-70c7-ba38-2d6a8c5d4a4e/image.png)
 
-### AS5048A Adapter Board 3D View:
-![AS5048A_3D](https://cdn.hackclub.com/01a0201f-c08a-7a5c-80c7-2277388eb9a6/image.png)
+### AS5047P Adapter Board 3D View:
+![AS5047P_3D](https://cdn.hackclub.com/01a0201f-c08a-7a5c-80c7-2277388eb9a6/image.png)
 
 ## Bill Of Materials:
 
@@ -87,9 +87,9 @@ I started making this project knowing basically nothing about communication prot
 | # | Reference | Qty | Value | Manufacturer | Manufacturer Part # | Footprint | Description | Price (1 Component) | Link |
 |---:|---|---:|---|---|---|---|---|---:|---|
 | 1 | C1 | 1 | 100nF | Murata Electronics | GCM188L81H104KA57D | `Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder` | Unpolarized capacitor | $0.14 | [DigiKey](https://www.digikey.ca/en/products/detail/murata-electronics/GCM188L81H104KA57D/2591908?s=N4IgTCBcDaIOIGECyBGAHGgMmlAJFADACwDSAggKwDsAIiALoC%2BQA) |
-| 2 | C2 | 1 | 10uF | Murata Electronics | GCJ21BR71A106KE01L | `Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder` | Unpolarized capacitor | $0.50 | [DigiKey](https://www.digikey.ca/en/products/detail/murata-electronics/GCJ21BR71A106KE01L/4903511?s=N4IgTCBcDaIOIGEBSYCMAhASgdlQQVQAYA2AaQFFDUAZEAXQF8g) |
+| 2 | C2 | 1 | 1uF | Murata Electronics | GCM188R71E105KA64D | `Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder` | Unpolarized capacitor | $0.19 | [DigiKey](https://www.digikey.ca/en/products/detail/murata-electronics/GCM188R71E105KA64D/4903956?s=N4IgTCBcDaIOIGECyBGAHGgSgdhQURQAYBWAaQEEA2AFgBEQBdAXyA) |
 | 3 | J1 | 1 | Conn_01x07_Socket | — | — | `Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical` | Generic connector, single row, 01x07, script generated | — | — |
-| 4 | U1 | 1 | AS5048A | ams OSRAM AG | AS5048A-HTSP-500 | `Package_SO:TSSOP-14_4.4x5mm_P0.65mm` | Magnetic position sensor, 14-bit, PWM output, SPI Interface, TSSOP-14 | $8.80 | [DigiKey](https://www.digikey.ca/en/products/detail/ams-osram-ag/AS5048A-HTSP-500/3188615?s=N4IgTCBcDaIIIGUCsAGALADjgWgBIBUEAFbVFEAXQF8g) |
+| 4 | U1 | 1 | AS5047P | Infineon Technologies | AS5047P-ATSM-TSSOP14 | `Package_SO:TSSOP-14_4.4x5mm_P0.65mm` | Magnetic position sensor, 14-bit, PWM output, SPI Interface, TSSOP-14 | $9.95$ | [DigiKey](https://www.digikey.ca/en/products/detail/infineon-technologies/AS5047P-ATSM-TSSOP14/29758312) |
 
 ### Linear Sensor:
 
