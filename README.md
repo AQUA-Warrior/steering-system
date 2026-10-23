@@ -96,3 +96,11 @@ I started making this project knowing basically nothing about communication prot
 | # | Reference | Qty | Value | Manufacturer | Manufacturer Part # | Footprint | Description | Price (1 Component) | Link |
 |---:|---|---:|---|---|---|---|---|---:|---|
 | 1 | — | 1 | — | Texas Instruments | DRV5055A1QLPG | — | SEN HALL EFFECT ANLG VOLT TO92-3 | $0.77 | [Digikey](https://www.digikey.ca/en/products/detail/texas-instruments/DRV5055A1QLPG) |
+
+### Misc:
+
+| # | Reference | Qty | Value | Manufacturer | Manufacturer Part # | Footprint | Description | Price (1 Component) | Link |
+|---:|---|---:|---|---|---|---|---|---:|---|
+| 1 | J1 | 1 | TSW-150-07-G-S | Samtec Inc. | TSW-150-07-G-S | — | 50-position, single-row, through-hole male pin header, 2.54 mm pitch | $4.27 | [DigiKey](https://www.digikey.ca/en/products/detail/samtec-inc/TSW-150-07-G-S/1101277) |
+| 2 | — | 1 | 9042 | Radial Magnets, Inc. | 9042 | — | Neodymium N35 cylindrical magnet, 6 × 2.5 mm, diametrically magnetized | $0.63 | [DigiKey](https://www.digikey.ca/en/products/detail/radial-magnets-inc/9042/5640338) |
+| 3 | — | 2 | 9027 | Radial Magnets, Inc. | 9027 | — | Neodymium N35SH cylindrical magnet, 4 × 2.5 mm, axially magnetized | $0.40 | [DigiKey](https://www.digikey.ca/en/products/detail/radial-magnets-inc/9027/5218822) |
