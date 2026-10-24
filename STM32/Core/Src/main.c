@@ -18,10 +18,12 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "usb_device.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include <stdio.h>
+#include "usbd_cdc_if.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -44,10 +46,6 @@ ADC_HandleTypeDef hadc1;
 
 SPI_HandleTypeDef hspi1;
 
-UART_HandleTypeDef huart2;
-
-PCD_HandleTypeDef hpcd_USB_OTG_FS;
-
 /* USER CODE BEGIN PV */
 
 /* USER CODE END PV */
@@ -58,9 +56,9 @@ static void MPU_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_ADC1_Init(void);
 static void MX_SPI1_Init(void);
-static void MX_USART2_UART_Init(void);
-static void MX_USB_OTG_FS_PCD_Init(void);
 /* USER CODE BEGIN PFP */
+
+
 
 /* USER CODE END PFP */
 
@@ -103,9 +101,20 @@ int main(void)
   MX_GPIO_Init();
   MX_ADC1_Init();
   MX_SPI1_Init();
-  MX_USART2_UART_Init();
-  MX_USB_OTG_FS_PCD_Init();
+  MX_USB_DEVICE_Init();
   /* USER CODE BEGIN 2 */
+
+  uint16_t throttle = 65535;
+  uint16_t brake = 65535;
+  uint16_t steering = 65535;
+
+  uint16_t spi_tx = 0;
+  uint16_t spi_rx = 0;
+
+  ADC_ChannelConfTypeDef adcConfig = {0};
+
+  char message[100];
+  int length;
 
   /* USER CODE END 2 */
 
@@ -114,6 +123,133 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
+
+	  // Throttle from PB0 (ADC 8)
+	  throttle = 65535;
+
+	  adcConfig.Channel = ADC_CHANNEL_8;
+	  adcConfig.Rank = ADC_REGULAR_RANK_1;
+	  adcConfig.SamplingTime = ADC_SAMPLETIME_56CYCLES;
+
+	  // Check if ADC1 selected the channel
+	  if (HAL_ADC_ConfigChannel(&hadc1, &adcConfig) == HAL_OK)
+	  {
+		  // Measure voltage on the analog pin
+		  if (HAL_ADC_Start(&hadc1) == HAL_OK)
+		  {
+			  /* wait 10ms for measurement */
+			  if (HAL_ADC_PollForConversion(&hadc1, 10) == HAL_OK)
+			  {
+				  throttle = (uint16_t)HAL_ADC_GetValue(&hadc1);
+			  }
+
+			  // stop
+			  HAL_ADC_Stop(&hadc1);
+
+		  }
+	  }
+
+	  // Brake from PC4 (ADC 14)
+	  brake = 65535;
+
+	  adcConfig.Channel = ADC_CHANNEL_14;
+	  adcConfig.Rank = ADC_REGULAR_RANK_1;
+	  adcConfig.SamplingTime = ADC_SAMPLETIME_56CYCLES;
+
+	  // Check if ADC1 selected the channel
+	  if (HAL_ADC_ConfigChannel(&hadc1, &adcConfig) == HAL_OK)
+	  {
+		  // Measure voltage on the analog pin
+		  if (HAL_ADC_Start(&hadc1) == HAL_OK)
+		  {
+			  /* wait 10ms for measurement */
+			  if (HAL_ADC_PollForConversion(&hadc1, 10) == HAL_OK)
+			  {
+				  brake = (uint16_t)HAL_ADC_GetValue(&hadc1);
+			  }
+
+			  // stop
+			  HAL_ADC_Stop(&hadc1);
+
+		  }
+	  }
+
+	  // Steering wheel (SPI)
+	  steering = 65535;
+
+	  spi_tx = 0xFFFF;
+	  spi_rx = 0;
+
+	  // pull CS low to select the AS5047P chip
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_RESET);
+
+	  // send the command to get the SPI message/frame
+	  HAL_StatusTypeDef spiStatus = HAL_SPI_TransmitReceive(
+	          &hspi1,
+	          (uint8_t *)&spi_tx,
+	          (uint8_t *)&spi_rx,
+	          1,
+	          100
+	  );
+
+	  /* pull CS high to finish command */
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_SET);
+
+	  // if the SPI transfer worked
+	  if (spiStatus == HAL_OK)
+	      {
+	          // send a blank message to flush the previous response
+	          spi_tx = 0x0000;
+	          spi_rx = 0;
+
+	          // pull CS high
+	          HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_RESET);
+
+	          // send clock pulses to receive the sensors response
+	          spiStatus = HAL_SPI_TransmitReceive(
+	              &hspi1,
+	              (uint8_t *)&spi_tx,
+	              (uint8_t *)&spi_rx,
+	              1,
+	              100
+	          );
+
+	          // pull CS low
+	          HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_SET);
+
+	          // if the second message worked -> use the response
+	          if (spiStatus == HAL_OK)
+	          {
+	              // we have to apply a bitwise and to only keep the lower 14 bits
+	        	  // 16 bits is total including SPI message overhead
+	              steering = spi_rx & 0x3FFF;
+	          }
+	      }
+
+	  // Format data as text
+	  // %u is placeholder if there isn't a valid number
+
+	  length = snprintf(
+	      message,
+	      sizeof(message),
+	      "Throttle=%u, Brake=%u, Steering=%u\r\n",
+	      (unsigned int)throttle,
+	      (unsigned int)brake,
+	      (unsigned int)steering
+	    );
+
+	  // send text over USB
+
+	  if (length > 0 && length < (int)sizeof(message))
+	  {
+		  // message is data - length is bytes to send
+		  (void)CDC_Transmit_FS(
+			(uint8_t *)message,
+			(uint16_t)length
+		  );
+	  }
+
+	  HAL_Delay(100);
 
     /* USER CODE BEGIN 3 */
   }
@@ -208,7 +344,7 @@ static void MX_ADC1_Init(void)
   */
   sConfig.Channel = ADC_CHANNEL_8;
   sConfig.Rank = ADC_REGULAR_RANK_1;
-  sConfig.SamplingTime = ADC_SAMPLETIME_3CYCLES;
+  sConfig.SamplingTime = ADC_SAMPLETIME_56CYCLES;
   if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
   {
     Error_Handler();
@@ -238,11 +374,11 @@ static void MX_SPI1_Init(void)
   hspi1.Instance = SPI1;
   hspi1.Init.Mode = SPI_MODE_MASTER;
   hspi1.Init.Direction = SPI_DIRECTION_2LINES;
-  hspi1.Init.DataSize = SPI_DATASIZE_4BIT;
+  hspi1.Init.DataSize = SPI_DATASIZE_16BIT;
   hspi1.Init.CLKPolarity = SPI_POLARITY_LOW;
-  hspi1.Init.CLKPhase = SPI_PHASE_1EDGE;
+  hspi1.Init.CLKPhase = SPI_PHASE_2EDGE;
   hspi1.Init.NSS = SPI_NSS_SOFT;
-  hspi1.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_2;
+  hspi1.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_32;
   hspi1.Init.FirstBit = SPI_FIRSTBIT_MSB;
   hspi1.Init.TIMode = SPI_TIMODE_DISABLE;
   hspi1.Init.CRCCalculation = SPI_CRCCALCULATION_DISABLE;
@@ -256,77 +392,6 @@ static void MX_SPI1_Init(void)
   /* USER CODE BEGIN SPI1_Init 2 */
 
   /* USER CODE END SPI1_Init 2 */
-
-}
-
-/**
-  * @brief USART2 Initialization Function
-  * @param None
-  * @retval None
-  */
-static void MX_USART2_UART_Init(void)
-{
-
-  /* USER CODE BEGIN USART2_Init 0 */
-
-  /* USER CODE END USART2_Init 0 */
-
-  /* USER CODE BEGIN USART2_Init 1 */
-
-  /* USER CODE END USART2_Init 1 */
-  huart2.Instance = USART2;
-  huart2.Init.BaudRate = 115200;
-  huart2.Init.WordLength = UART_WORDLENGTH_8B;
-  huart2.Init.StopBits = UART_STOPBITS_1;
-  huart2.Init.Parity = UART_PARITY_NONE;
-  huart2.Init.Mode = UART_MODE_TX_RX;
-  huart2.Init.HwFlowCtl = UART_HWCONTROL_NONE;
-  huart2.Init.OverSampling = UART_OVERSAMPLING_16;
-  huart2.Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
-  huart2.AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_NO_INIT;
-  if (HAL_UART_Init(&huart2) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  /* USER CODE BEGIN USART2_Init 2 */
-
-  /* USER CODE END USART2_Init 2 */
-
-}
-
-/**
-  * @brief USB_OTG_FS Initialization Function
-  * @param None
-  * @retval None
-  */
-static void MX_USB_OTG_FS_PCD_Init(void)
-{
-
-  /* USER CODE BEGIN USB_OTG_FS_Init 0 */
-
-  /* USER CODE END USB_OTG_FS_Init 0 */
-
-  /* USER CODE BEGIN USB_OTG_FS_Init 1 */
-
-  /* USER CODE END USB_OTG_FS_Init 1 */
-  hpcd_USB_OTG_FS.Instance = USB_OTG_FS;
-  hpcd_USB_OTG_FS.Init.dev_endpoints = 6;
-  hpcd_USB_OTG_FS.Init.speed = PCD_SPEED_FULL;
-  hpcd_USB_OTG_FS.Init.dma_enable = DISABLE;
-  hpcd_USB_OTG_FS.Init.phy_itface = PCD_PHY_EMBEDDED;
-  hpcd_USB_OTG_FS.Init.Sof_enable = DISABLE;
-  hpcd_USB_OTG_FS.Init.low_power_enable = DISABLE;
-  hpcd_USB_OTG_FS.Init.lpm_enable = DISABLE;
-  hpcd_USB_OTG_FS.Init.battery_charging_enable = ENABLE;
-  hpcd_USB_OTG_FS.Init.vbus_sensing_enable = ENABLE;
-  hpcd_USB_OTG_FS.Init.use_dedicated_ep1 = DISABLE;
-  if (HAL_PCD_Init(&hpcd_USB_OTG_FS) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  /* USER CODE BEGIN USB_OTG_FS_Init 2 */
-
-  /* USER CODE END USB_OTG_FS_Init 2 */
 
 }
 
@@ -349,7 +414,7 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_SET);
 
   /*Configure GPIO pin : PA4 */
   GPIO_InitStruct.Pin = GPIO_PIN_4;
@@ -359,6 +424,16 @@ static void MX_GPIO_Init(void)
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
   /* USER CODE BEGIN MX_GPIO_Init_2 */
+
+  GPIO_InitStruct.Pin = GPIO_PIN_0;
+  GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+  GPIO_InitStruct.Pin = GPIO_PIN_4;
+  GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
 
   /* USER CODE END MX_GPIO_Init_2 */
 }
