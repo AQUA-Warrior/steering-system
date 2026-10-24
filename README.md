@@ -11,7 +11,7 @@ I started making this project knowing basically nothing about communication prot
 ### The Repository Contains:
 - KiCad schematics and PCB's for the devboard and AS5047P adapter board.
 - STM32CubeMX pinouts for the devboard.
-- This repository will in the future contain the firmware/software.
+- This repository contains firmware in the STM32/ folder
 
 ### Main Board Hardware:
 - **Chip:** STM32F732RET6 (64-pin)
