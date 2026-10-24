@@ -105,7 +105,7 @@ I started making this project knowing basically nothing about communication prot
 | 2 | — | 1 | 9042 | Radial Magnets, Inc. | 9042 | — | Neodymium N35 cylindrical magnet, 6 × 2.5 mm, diametrically magnetized | $0.63 | [DigiKey](https://www.digikey.ca/en/products/detail/radial-magnets-inc/9042/5640338) |
 | 3 | — | 2 | 9027 | Radial Magnets, Inc. | 9027 | — | Neodymium N35SH cylindrical magnet, 4 × 2.5 mm, axially magnetized | $0.40 | [DigiKey](https://www.digikey.ca/en/products/detail/radial-magnets-inc/9027/5218822) |
 
-### PCB Costs:
+### PCB:
 | Item | Cost (USD) |
 |---|---:|
 | AS5048 Adapter Board PCB | $5.20 |
