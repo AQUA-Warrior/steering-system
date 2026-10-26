@@ -87,7 +87,7 @@ I started making this project knowing basically nothing about communication prot
 | # | Reference | Qty | Value | Manufacturer | Manufacturer Part # | Footprint | Description | Price (1 Component) | Link |
 |---:|---|---:|---|---|---|---|---|---:|---|
 | 1 | C1 | 1 | 100nF | Murata Electronics | GCM188L81H104KA57D | `Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder` | Unpolarized capacitor | $0.14 | [DigiKey](https://www.digikey.ca/en/products/detail/murata-electronics/GCM188L81H104KA57D/2591908?s=N4IgTCBcDaIOIGECyBGAHGgMmlAJFADACwDSAggKwDsAIiALoC%2BQA) |
-| 2 | C2 | 1 | 1uF | Murata Electronics | GCM188R71E105KA64D | `Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder` | Unpolarized capacitor | $0.19 | [DigiKey](https://www.digikey.ca/en/products/detail/murata-electronics/GCM188R71E105KA64D/4903956?s=N4IgTCBcDaIOIGECyBGAHGgSgdhQURQAYBWAaQEEA2AFgBEQBdAXyA) |
+| 2 | C2 | 1 | 1uF | Murata Electronics | GRT188C8YA105KE13D | `Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder` | Unpolarized capacitor | $0.17 | [DigiKey](https://www.digikey.ca/en/products/detail/murata-electronics/GRT188C8YA105KE13D/5416719?s=N4IgTCBcDaIOICUAqBGAHGgwmgmgQRQAYBWAaQFEUBmAERAF0BfIA) |
 | 3 | J1 | 1 | Conn_01x07_Socket | — | — | `Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical` | Generic connector, single row, 01x07, script generated | — | — |
 | 4 | U1 | 1 | AS5047P | Infineon Technologies | AS5047P-ATSM-TSSOP14 | `Package_SO:TSSOP-14_4.4x5mm_P0.65mm` | Magnetic position sensor, 14-bit, PWM output, SPI Interface, TSSOP-14 | $9.95$ | [DigiKey](https://www.digikey.ca/en/products/detail/infineon-technologies/AS5047P-ATSM-TSSOP14/29758312) |
 
