@@ -1,0 +1,5 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description,KiLib_Generator,Link,MANUFACTURER,Manufacturer Part #,Price
+AS5047P,1,AS5048A,TSSOP-14_4.4x5mm_P0.65mm,,,,smt,"Magnetic position sensor, 14-bit, PWM output, SPI Interface, TSSOP-14",package/gullwing,,,,
+C1,1,100nF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,,,,smt,Unpolarized capacitor,SMD_2terminal_chip_molded,https://www.digikey.com/en/products/detail/murata-electronics/GCM188L81H104KA57D/2591908?s=N4IgTCBcDaIOIGECyBGAHGgMmlAJFADACwDSAggKwDsAIiALoC%2BQA,Murata Electronics,GCM188L81H104KA57D,$0.14
+C2,1,1uF,C_0603_1608Metric,,,,smt,Unpolarized capacitor,SMD_2terminal_chip_molded,https://www.digikey.ca/en/products/detail/murata-electronics/GCM188R71E105KA64D,Murata Electronics,GCM188R71E105KA64D,$0.19
+J1,1,Conn_01x07_Socket,PinHeader_1x07_P2.54mm_Vertical,,,,tht,"Generic connector, single row, 01x07, script generated",connector/pin_header_socket,,,,

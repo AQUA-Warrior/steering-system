@@ -505,7 +505,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "AS5048.kicad_pro",
+    "filename": "AS5047P.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -696,8 +696,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "AS5048.kicad_sch",
-        "name": "Root",
+        "filename": "AS5047P.kicad_sch",
+        "name": "AS5047P",
         "uuid": "c420d1b4-065c-4e33-beba-dd001b77557c"
       }
     ],

@@ -76,32 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|148290000|135450000|a13f3bed-e14b-4f91-8d4c-ac1a4cf5692d|5c40c9a2-6eca-4a88-842f-95a04bf183ec",
-          "USBC"
-        ],
-        [
-          "clearance|148290000|137150000|adfffdf0-533e-48cf-9976-4383fe5fa20d|538088d0-0fb9-4ab4-bac3-faf5eba20de8",
-          "USBC"
-        ],
-        [
-          "clearance|148290000|140550000|01352632-1582-48cd-a9bd-b32015bc3f4f|5bec6e9f-db2d-43b0-b2f9-6a8eb4e4cc01",
-          "USBC"
-        ],
-        [
-          "clearance|149640000|135450000|0dadb28e-24f9-4739-8202-c4daa9854afe|908bb837-5780-4930-b15d-fd4e93411c59",
-          "USBC"
-        ],
-        [
-          "starved_thermal|149640000|135025000|6e4b8bf9-cff6-43cc-9933-229cd4b65710|0dadb28e-24f9-4739-8202-c4daa9854afe|F.Cu",
-          "USBC"
-        ],
-        [
-          "starved_thermal|149640000|140975000|6e4b8bf9-cff6-43cc-9933-229cd4b65710|bf7b7235-92a6-40ab-aae2-2928b0d4a8fc|F.Cu",
-          "USBC"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },

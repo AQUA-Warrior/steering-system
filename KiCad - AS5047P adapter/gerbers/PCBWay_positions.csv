@@ -1,0 +1,5 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
+71.572622,-78.6075,0.0,top,AS5047P,,,TSSOP-14_4.4x5mm_P0.65mm,AS5048A,smt
+76.25,-80.1125,90.0,top,C1,,,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,100nF,smt
+76.25,-76.775,90.0,top,C2,,,C_0603_1608Metric,1uF,smt
+61.9575,-70.8625,0.0,top,J1,,,PinHeader_1x07_P2.54mm_Vertical,Conn_01x07_Socket,tht
